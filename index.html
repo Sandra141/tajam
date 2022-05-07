@@ -9,6 +9,7 @@
     <title>Static Template</title>
   </head>
   <body>
+    <!-- Header -->
     <header>
       <div class="upper-part">
         <div class="left-side">
@@ -37,12 +38,26 @@
         <h1>We Are Awesome Creative Agency</h1>
         <div class="line"></div>
         <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
-        <a href="#">LEARN MORE</a>
+        <a href="#" class="button">LEARN MORE</a>
       </div>
     </header>
+    <!-- Our Story -->
     <section class="section-2">
-      <div class="content">our story</div>
+      <div class="content">
+        <div id="our-story-flexcontainer">
+          <div id="story-left-side">
+            <img src="public/images/svg/logo-big.svg" alt="Logo" />
+          </div>
+          <div id="story-right-side">
+            <h2>OUR STORY</h2>
+            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.</p>
+            <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+            <a href="#" class="button">LEARN MORE</a>
+          </div>
+        </div>
+      </div>
     </section>
+    <!-- Watch Section -->
     <section class="section-3">
       <div class="content">
         <div id="video-container">
@@ -51,55 +66,167 @@
         </div>
       </div>
     </section>
+    <!-- Expertise Section -->
     <section class="section-4">
-      <div class="content">expertise</div>
-    </section>
-    <section class="section-5">
       <div class="content">
-        <h2 id="section-5-title">MEET OUR AMAZING TEAM</h2>
-        <span id="section-5-tagline"
-          >bla bla bla bla bla bla bla bla bla bla bla
-        </span>
-        <div class="dash"></div>
-        <div class="team-boxes">
-          <div class="team-box">
-            <div class="team-box-picture">image</div>
-            <div class="team-box-text">
-              <bold>person's name</bold>
-              <span>job title</span>
+        <div id="expertise-flexcontainer">
+          <h2>EXPERTISE</h2>
+          <p>Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+          <div class="line"></div>
+          <div id="box-container">
+            <div class="expertise-box border-bottom">
+              <img src="public/images/svg/screen.svg" alt="">
+              <h3>WEB DESIGN & DEVELOPMENT</h3>
+              <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
             </div>
-          </div>
-          <div class="team-box">
-            <div class="team-box-picture">image</div>
-            <div class="team-box-text">
-              <bold>person's name</bold>
-              <span>job title</span>
+            <div class="expertise-box border-bottom">
+              <img src="public/images/svg/pen.svg" alt="">
+              <h3>BRANDING IDENTITY</h3>
+              <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
             </div>
-          </div>
-          <div class="team-box">
-            <div class="team-box-picture">image</div>
-            <div class="team-box-text">
-              <bold>person's name</bold>
-              <span>job title</span>
+            <div class="expertise-box border-bottom">
+              <img src="public/images/svg/mobile.svg" alt="">
+              <h3>MOBILE APP</h3>
+              <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
             </div>
-          </div>
-          <div class="team-box">
-            <div class="team-box-picture">image</div>
-            <div class="team-box-text">
-              <bold>person's name</bold>
-              <span>job title</span>
+            <div class="expertise-box">
+              <img src="public/images/svg/graph.svg" alt="">
+              <h3>SEARCH ENGINE OPTIMIZATION</h3>
+              <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+            </div>
+            <div class="expertise-box">
+              <img src="public/images/svg/gameboy.svg" alt="">
+              <h3>GAME DEVELOPMENT</h3>
+              <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+            </div>
+            <div class="expertise-box">
+              <img src="public/images/svg/heart.svg" alt="">
+              <h3>MADE WITH LOVE</h3>
+              <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
             </div>
           </div>
         </div>
-        <span>bla bla bla bla bla bla bla bla bla bla bla </span>
-        <button>WE ARE HIRING</button>
       </div>
     </section>
+    <!-- Team Section -->
+    <section class="section-5">
+      <div class="content">
+        <div id="team-flexcontainer">
+          <h2>MEET OUR AMAZING TEAM</h2>
+          <h3>Lorem ipsum dolor sit amet proin gravida nibh vel velit</h3>
+          <div class="line"></div>
+          <div id="team-boxes-container">
+            <div class="team-box">
+              <div class="white-box"></div>
+              <h4>SEMF UCUK</h4>
+              <p>CEO & FOUNDER</p>
+            </div>
+            <div class="team-box">
+              <div class="white-box"></div>
+              <h4>DIK ADALIN</h4>
+              <p>ENGINEERING</p>
+            </div>
+            <div class="team-box">
+              <div class="white-box"></div>
+              <h4>JENG KOL</h4>
+              <p>DESIGNER</p>
+            </div>
+            <div class="team-box">
+              <div class="white-box"></div>
+              <h4>PET ROMAK</h4>
+              <p>MARKETING</p>
+            </div>
+          </div>
+          <p id="part-of-team">Become part of our dream team, let's join us !</p>
+          <a href="#" class="button">WE ARE HIRING</a>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Us -->
     <section class="section-6">
-      <div class="content">contact us</div>
+      <div class="content">
+        <div id="contact-flexcontainer">
+          <div id="contact-left-part">
+            <h2>GIVE US A GOOD NEWS</h2>
+            <form action="#">
+              <input type="text" placeholder="Name">
+              <input type="email" placeholder="Email">
+              <input type="text" placeholder="Subject">
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            </form>
+            <a href="#" class="button">SUBMIT</a>
+          </div>
+          <div id="contact-right-part">
+            <h2>OUR HAPPY CLIENT</h2>
+            <div id="clients-container">
+              <div id="clients-left">
+                <img src="public/images/svg/Zara_Logo.svg" alt="">
+                <img src="public/images/svg/1280px-Barneys_New_York_Logo.svg" alt="">
+                <img src="public/images/svg/Calvin_klein_logo.svg" alt="">
+                <img src="public/images/svg/Converse_logo.svg" alt="">
+                <img src="public/images/svg/1280px-Levi's_logo.svg" alt="">
+              </div>
+              <div id="clients-right">
+                <img src="public/images/svg/Logo_of_Mango_(new).svg" alt="">
+                <img src="public/images/svg/1280px-Gucci_Logo.svg" alt="">
+                <img src="public/images/svg/1280px-Logo_NIKE.svg" alt="">
+                <img src="public/images/svg/Puma_Logo.svg" alt="">
+                <img src="public/images/svg/Billabong.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-    <section class="section-7">
-      <div class="content">footer</div>
-    </section>
+    <!-- Footer -->
+    <footer>
+      <section>
+        <div class="content">
+          <div id="footer-flexcontainer">
+            <div id="footer-left">
+              <div class="upper-row" id="footer-logo">
+                <img src="/public/images/svg/logo.svg" alt="Logo">
+                <p id="p_logo">tajam</p>
+              </div>
+              <p>lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit</p>
+            </div>
+            <div id="footer-middle">
+              <h4 class="upper-row">OUR STUDIO</h4>
+              <div id="footer-location">
+                <img src="public/images/svg/big104.svg" alt="">
+                <p>Ruko cucruk, Jl. Radio luar dalem jos <br />No.12 - 13, Kalideres - Jakarta Barat <br />11480 - Indonesia</p>
+                <img src="public/images/svg/phone351.svg" alt="">
+                <p>(+62) 21-2224 3333</p>
+              </div>
+            </div>
+            <div id="footer-right">
+              <h4 class="upper-row">STAY IN TOUCH</h4>
+              <form action="#">
+                <input type="text" placeholder="Subscribe our newsletter">
+                <img src="public/images/svg/paper122.svg" alt="">
+              </form>
+              <div id="icons">
+                <img src="public/images/svg/facebook.svg" alt="">
+                <img src="public/images/svg/twitter.svg" alt="">
+                <img src="public/images/svg/dribbble.svg" alt="">
+                <img src="public/images/svg/instagram.svg" alt="">
+                <img src="public/images/svg/gplus.svg" alt="">
+                <img src="public/images/svg/youtube.svg" alt="">
+              </div>
+            </div>
+          </div>
+          <div id="footer-flex-bottom">
+            <div id="footer-bottom-left">
+              <p>HELP</p>
+              <p>TERMS & CONDITION</p>
+              <p>PRIVACY</p>
+            </div>
+            <div id="footer-bottom-right">
+              <p>Copyright © 2015 - Tajem Creative</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
